@@ -1,0 +1,127 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff; /* Azul claro */
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  text-align: center;
+  color: #4caf50; /* Verde llamativo */
+  font-size: 2.5em;
+}
+
+p {
+  text-align: center;
+  font-size: 1.2em;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+button {
+  background-color: #ff5722; /* Naranja */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e64a19;
+}
+
+input, textarea {
+  display: block;
+  width: 80%;
+  margin: 10px auto;
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: #007bff; /* Azul */
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Estilos del Navbar */
+nav {
+  background-color: #6200ea; /* Morado oscuro */
+  padding: 10px 20px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav ul li {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: white;
+}
+
+nav ul li:hover {
+  color: #ffe082; /* Amarillo pastel */
+}
+
+/* Estilos de Onboarding */
+form {
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 2px solid #4caf50; /* Verde */
+  border-radius: 10px;
+  background-color: #ffffff; /* Blanco */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form h2 {
+  color: #ff5722; /* Naranja */
+}
+
+form button {
+  margin-top: 10px;
+}
+
+/* Secciones de Clientes, Proyectos y Albaranes */
+section {
+  margin: 20px auto;
+  padding: 20px;
+  border: 2px solid #007bff; /* Azul */
+  border-radius: 10px;
+  background-color: #e3f2fd; /* Azul claro pastel */
+  width: 90%;
+  max-width: 800px;
+}
+
+section h2 {
+  color: #6200ea; /* Morado */
+}
+
+ul {
+  margin-top: 10px;
+}
+
+ul li {
+  background-color: #ffffff; /* Blanco */
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+ul li:hover {
+  background-color: #f1f1f1;
+}
